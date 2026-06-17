@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/gnod_food/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
